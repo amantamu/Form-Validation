@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    border: 1px solid gray;
+}
+
+h1 {
+    padding: 15px;
+    color: whitesmoke;
+    background-color: purple;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input {
+    margin: 10px 10px;
+    padding: 10px 0;
+}
+
+input[type=submit] {
+    color: whitesmoke;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+    margin: 10px 10px;
+}
